@@ -1,4 +1,6 @@
+import json
 
+File = "pelaajan_tunnukset"
 #Pelin aloitus
 aloitus = input("Oletko aikaisemmin pelannut meidän pelin? vasta joo tai ei: ")
 print("Tervetuloa lentoasema pelissä")
@@ -32,3 +34,13 @@ while username2 not in username:
             password2 = input("Kirjoita salasana: ")
     if username2 in username and password2 in password:
         print("Tervetuloa peliin!!")
+
+
+#nimimerkki
+
+nimimerkki = []
+
+nimi = input("valitse nimimerkki: ")
+nimimerkki.append(nimi)
+print ("Hello "+ nimi + "!")
+
